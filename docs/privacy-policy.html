@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Personal Actual Budget Integration</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6;max-width:44rem;margin:2rem auto;padding:0 1.25rem;color:#1a1a1a}
+h1{font-size:1.5rem}h2{font-size:1.1rem;margin-top:1.6rem}
+.meta{color:#555;font-size:.9rem}
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p class="meta">Personal bank-data integration (Actual Budget) · Effective date: 20 October 2026</p>
+
+<h2>1. Who operates this integration</h2>
+<p>This is a private, non-commercial integration operated by a single private individual
+in Norway for managing their own household finances. No service is offered to the public
+or to any third party. Contact: <a href="https://github.com/hail2victors">github.com/hail2victors</a>.</p>
+
+<h2>2. What data is accessed</h2>
+<p>Through the bank's PSD2 interface (via the Enable Banking connector) the integration
+accesses account information and transaction history for the operator's own bank
+accounts. Access is <strong>read-only</strong>: the integration cannot initiate payments
+or transfers.</p>
+
+<h2>3. Purpose</h2>
+<p>Data is used solely for personal budgeting in the operator's own self-hosted budget
+application (Actual Budget). Data is not used for advertising, profiling, analytics,
+or any commercial purpose.</p>
+
+<h2>4. Where data is stored</h2>
+<p>Data is stored on hardware operated by the private individual (self-hosted). Data is
+not sold, rented, or shared with third parties. No bank passwords or BankID codes are
+stored by the integration: authentication takes place in the bank's own login interface,
+and the bank issues an access token to the application. Application credentials (such as
+an app private key) remain under the operator's control and are not published.</p>
+
+<h2>5. Parties involved in data access</h2>
+<ul>
+<li>The user's bank (source of the data)</li>
+<li>Enable Banking (the technical PSD2 connectivity provider)</li>
+<li>The bank's identity provider (e.g., BankID), used by the user to log in</li>
+</ul>
+<p>No other third parties receive data.</p>
+
+<h2>6. Consent, access and deletion</h2>
+<p>Bank data access relies on consent granted by the user in the bank's own interface.
+Consent is valid for up to 90 days and can be renewed by re-authorising the connection,
+or ended at any time by revoking it in the bank or by removing the connection. All
+collected data lives in the operator's self-hosted application and is deleted at the
+operator's discretion.</p>
+
+<h2>7. Changes</h2>
+<p>This policy may be updated over time. The current version is published at this
+address.</p>
+</body>
+</html>
